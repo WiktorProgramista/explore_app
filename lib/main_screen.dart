@@ -14,6 +14,13 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
+  int _selectedIndex = 0;
   bool _isSearchButtonVisible = false;
   @override
   Widget build(BuildContext context) {
@@ -33,6 +40,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ),
       ),
+      bottomNavigationBar: bottomNav(),
     );
   }
 
@@ -143,7 +151,7 @@ class _MainScreenState extends State<MainScreen> {
         padding: const EdgeInsets.symmetric(horizontal: 5.0),
         children: books.map((book) {
           return Padding(
-            padding: const EdgeInsets.symmetric(vertical: 10.0),
+            padding: const EdgeInsets.symmetric(vertical: 5.0),
             child: GestureDetector(
               child: BookWidget(book: book),
               onTap: () {
@@ -158,6 +166,37 @@ class _MainScreenState extends State<MainScreen> {
           );
         }).toList(),
       ),
+    );
+  }
+
+  Widget bottomNav() {
+    return BottomNavigationBar(
+      type: BottomNavigationBarType.fixed,
+      items: <BottomNavigationBarItem>[
+        BottomNavigationBarItem(
+          icon: SvgPicture.asset('assets/dom.svg'),
+          label: 'Śląskie',
+        ),
+        BottomNavigationBarItem(
+          icon: SvgPicture.asset('assets/aktualnosci.svg'),
+          label: 'Aktualności',
+        ),
+        BottomNavigationBarItem(
+          icon: SvgPicture.asset('assets/wydarzenia.svg'),
+          label: 'Wydarzenia',
+        ),
+        BottomNavigationBarItem(
+          icon: SvgPicture.asset('assets/eksploruj.svg'),
+          label: 'Eksploruj',
+        ),
+      ],
+      currentIndex: _selectedIndex,
+      selectedItemColor: Colors.black,
+      unselectedFontSize: 14,
+      showUnselectedLabels: true,
+      showSelectedLabels: true,
+      selectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
+      onTap: _onItemTapped,
     );
   }
 }
