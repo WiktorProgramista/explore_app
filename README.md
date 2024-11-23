@@ -1,7 +1,7 @@
+![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 38 27](https://github.com/user-attachments/assets/a1ebd138-5094-43ea-9b9f-1252efc452e3)
 ![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 39 18](https://github.com/user-attachments/assets/b0f14791-bb23-417b-895b-8df2b7113ead)
 ![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 39 11](https://github.com/user-attachments/assets/57b43a0c-a160-46dd-aff9-28cf0edeaebf)
 ![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 39 04](https://github.com/user-attachments/assets/64378c39-ad12-4257-8d84-84da2f0de2cb)
 ![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 38 55](https://github.com/user-attachments/assets/84000e7e-d52e-419e-9d0a-ec88e458dac4)
 ![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 38 42](https://github.com/user-attachments/assets/896ccd87-9445-4a08-90ce-aa2baf4fe536)
 ![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 38 34](https://github.com/user-attachments/assets/8e231b21-b821-4f57-9f00-f4191c06e515)
-![Simulator Screenshot - iPhone 16 Plus - 2024-11-23 at 18 38 27](https://github.com/user-attachments/assets/a1ebd138-5094-43ea-9b9f-1252efc452e3)
